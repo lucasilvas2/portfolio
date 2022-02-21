@@ -1,0 +1,58 @@
+:root{
+    /* Color Theme Swatches in Hex */
+    --Colorful-backdrop-1-hex-color: #2D3E40; 
+    --Colorful-backdrop-2-hex-color: #387373; 
+    --Colorful-backdrop-3-hex-color: #93BFB7; 
+    --Colorful-backdrop-4-hex-color: #97A6A0; 
+    --Colorful-backdrop-5-hex-color: #E4F2E7; 
+}
+
+.sidebar{
+    background-color: #2D3E40;
+    width: auto;
+    border-right: solid 1px black;
+    /* padding-top: 35px; */
+}
+
+.sidebar > div > a{
+    text-decoration: none;
+    color: #E4F2E7;
+    align-items: center;
+    /* padding-left: 20px; */
+}
+
+.sidebar > * {
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.logo_sidebar{   
+    position: sticky;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px var(--Colorful-backdrop-4-hex-color);
+
+}
+
+.bi{
+    margin-right: 5px;
+}
+.home{
+    background-color: var(--Colorful-backdrop-4-hex-color);
+    width: 80vw;
+    background-image: url(/images/bg_home8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.name{
+    color: white;
+    font-size: 60px;
+    opacity: 1;
+}
+
+.about{
+    background: linear-gradient(var(--Colorful-backdrop-1-hex-color),var(--Colorful-backdrop-2-hex-color));
+}
