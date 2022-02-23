@@ -1,9 +1,4 @@
-// $("html").ready( function() {
-//     window.alert( "Attention! This page is under development..." );
-// });
-
 $("#opt_home").click(function(){
-    // $("#home").scroll();
     $('html, body').animate({
         scrollTop: $("#home").offset().top
     }, 100);
@@ -13,7 +8,6 @@ $("#opt_about").click(function(){
     $('html, body').animate({
         scrollTop: $("#about").offset().top
     }, 100);
-    // $("#about").scroll();
 });
 $("#opt_portifolio").click(function(){
     $('html, body').animate({
@@ -26,10 +20,40 @@ $("#opt_contact").click(function(){
         scrollTop: $("#contact").offset().top
     }, 100);
 });
-function sidebar (){
-    printConsole("click");
-}
 
+$("#logo_sidebar").click(function(){
+    sidebar();
+});
+
+function sidebar (){
+    var sidebar = document.getElementById('sidebar');
+    var dysplay = document.getElementById('wrap');
+    var text_opt = document.getElementsByClassName('text_options');
+    if (dysplay.offsetWidth > 1000) {
+        if(sidebar.offsetWidth > 140){
+            sidebar.style.width = "5vw"
+
+            for (let i = 0; i < text_opt.length; i++) {
+                text_opt[i].style.display = "none";
+                
+            }
+        }else{
+            sidebar.style.width = "15vw"
+            for (let i = 0; i < text_opt.length; i++) {
+                text_opt[i].style.display = "initial";              
+            }
+        }
+    } else {
+        
+    }
+    printConsole(dysplay.offsetWidth);
+}
+function getWidthDysplay(){ 
+    return ;
+}
 function printConsole(value){
     console.log(value);
 }
+
+// Links uteis 
+// https://api.jquery.com/scrollTop/#scrollTop
