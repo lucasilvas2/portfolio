@@ -32,7 +32,7 @@ function sidebar (){
     var logo = document.getElementById('logo_sidebar')
     if (dysplay.offsetWidth > 1000) {
         if(sidebar.offsetWidth > 140){
-            sidebar.style.width = "5vw"
+            sidebar.style.width = "4vw"
             logo.innerText = "LS";
             for (let i = 0; i < text_opt.length; i++) {
                 text_opt[i].style.display = "none";

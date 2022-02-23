@@ -21,18 +21,18 @@
     text-decoration: none;
     color: #E4F2E7;
     align-items: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
-.sidebar > * {
+/* .sidebar > * {
     align-items: center;
     margin-top: 20px;   
-}
+} */
 
 .logo_sidebar{   
     position: sticky;
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: solid 1px var(--Colorful-backdrop-4-hex-color);
 
 }
