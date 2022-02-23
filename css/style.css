@@ -63,14 +63,17 @@
 }
 .info_home{
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     color: white;
     font-size: 60px;
 
 }
 .name{
     color: var(--Colorful-backdrop-1-hex-color);
-    /* color: black; */
+}
+
+.social > a{
+    color: var(--Colorful-backdrop-1-hex-color);
 }
 
 .hello, .skills {
