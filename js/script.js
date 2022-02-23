@@ -48,11 +48,9 @@ function sidebar (){
     } else {
         
     }
-    printConsole(dysplay.offsetWidth);
+
 }
-function getWidthDysplay(){ 
-    return ;
-}
+
 function printConsole(value){
     console.log(value);
 }
