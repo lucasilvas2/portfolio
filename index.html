@@ -14,12 +14,12 @@
         <div class="d-flex flex-row h-100 w-100 ">
             <div class="sidebar d-flex flex-column p-4 vh-100 sticky-top">
                 <div class="logo_sidebar"><a href="#" >Lucas Silva</a></div>
-                <div class="teste"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                <div> <a href="#" class="opt_sidebar" id="opt_home"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
                     <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
-                  </svg> </i>Home</a>
+                  </svg> Home</a>
                 </div>
                 <div>
-                    <a href="#">
+                    <a href="#" class="opt_sidebar" id="opt_about">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-text" viewBox="0 0 16 16">
                             <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
                             <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
@@ -27,18 +27,18 @@
                           About</a>
                 </div>
                 <div>
-                    <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-layers-fill" viewBox="0 0 16 16">
+                    <a href="#" class="opt_sidebar" id="opt_portifolio"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-layers-fill" viewBox="0 0 16 16">
                         <path d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z"/>
                         <path d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z"/>
                       </svg> Portfolio</a>
                 </div>
                 <div>
-                    <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
+                    <a href="#" class="opt_sidebar" id="opt_contact"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
                         <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
                       </svg>Contact</a></div>                                                                        
             </div>
             <div class="conteudo col">
-                <div class="home d-flex flex-column justify-content-center align-items-center">
+                <div class="home d-flex flex-column justify-content-center align-items-center" id="home">
                     
                     <div class="background "></div>
                     <div class="info_home">
@@ -47,7 +47,7 @@
                         <h2 class="skills ">Programmer & Web developer</h2>
                     </div>
                 </div>
-                <div class="about d-flex flex-column vh-100 w-100">
+                <div class="about d-flex flex-column vh-100 w-100" id="about">
                     <h1>About me</h1>
                     <p class="w-50">Hi! My name is Lucas Silva. I'm studying Information Technology at <a href="https://imd.ufrn.br/portal/">IMD</a> - <a href="https://www.ufrn.br/"> UFRN</a>. Fascinated by software and web development. Currently working at an internet service provider(ISP).</p>
                     <p>Nationality: Brazil</p>
@@ -63,6 +63,12 @@
                     <p>Html</p>
                     <p>CSS</p>
                     <p>JavaScript</p>
+
+                </div>
+                <div class="portifolio d-flex flex-column vh-100 w-100 bg-secondary" id="portifolio">
+
+                </div>
+                <div class="contact d-flex flex-column vh-100 w-100" id="contact">
 
                 </div>
             </div>

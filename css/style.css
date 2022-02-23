@@ -21,12 +21,12 @@
     text-decoration: none;
     color: #E4F2E7;
     align-items: center;
+    padding-top: 20px;
 }
 
 .sidebar > * {
     align-items: center;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 
 .logo_sidebar{   
