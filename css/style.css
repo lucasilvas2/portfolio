@@ -17,7 +17,7 @@
     border-right: solid 1px black;
 }
 
-.sidebar > div > a{
+.sidebar > div > a, p{
     text-decoration: none;
     color: #E4F2E7;
     align-items: center;

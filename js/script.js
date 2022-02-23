@@ -29,16 +29,18 @@ function sidebar (){
     var sidebar = document.getElementById('sidebar');
     var dysplay = document.getElementById('wrap');
     var text_opt = document.getElementsByClassName('text_options');
+    var logo = document.getElementById('logo_sidebar')
     if (dysplay.offsetWidth > 1000) {
         if(sidebar.offsetWidth > 140){
             sidebar.style.width = "5vw"
-
+            logo.innerText = "LS";
             for (let i = 0; i < text_opt.length; i++) {
                 text_opt[i].style.display = "none";
                 
             }
         }else{
             sidebar.style.width = "15vw"
+            logo.innerText = "Lucas Silva";
             for (let i = 0; i < text_opt.length; i++) {
                 text_opt[i].style.display = "initial";              
             }
