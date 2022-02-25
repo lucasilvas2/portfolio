@@ -21,13 +21,7 @@
     text-decoration: none;
     color: #E4F2E7;
     align-items: center;
-    /* padding-top: 20px; */
 }
-
-/* .sidebar > * {
-    align-items: center;
-    margin-top: 20px;   
-} */
 
 .logo_sidebar{   
     position: sticky;
@@ -74,6 +68,7 @@
 
 .social > a{
     color: var(--Colorful-backdrop-1-hex-color);
+    font-size: 2rem;
 }
 
 .hello, .skills {
@@ -82,7 +77,9 @@
 .about{
     background: linear-gradient(var(--Colorful-backdrop-1-hex-color),var(--Colorful-backdrop-2-hex-color));
 }
-
+.skills > p {
+    font-size: 2rem;
+}
 .footer p{
     align-items: center;
 }
